@@ -14,7 +14,7 @@ module.exports = {
         },
         {
           test:/\.js$/,
-          loader:'babel',//做语法转换
+          loader:'babel',
           exclude:/node_modules/,
           query:{
             presets:['react','es2015']
